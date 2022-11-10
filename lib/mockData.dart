@@ -1,6 +1,4 @@
-import 'dart:convert';
 import 'dart:math';
-import 'package:random_words/random_words.dart';
 import 'package:flutter_whatsapp_clone/ChatData.dart';
 import 'package:http/http.dart';
 var api = 'https://dummyjson.com/quotes';
