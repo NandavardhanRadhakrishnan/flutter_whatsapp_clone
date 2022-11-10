@@ -17,17 +17,18 @@ class _HomeState extends State<Home> {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromRGBO(7, 94, 85, 1),
+          backgroundColor: Color.fromRGBO(0, 128, 105, 1),
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text('WhatsApp'),
-              SizedBox(width: 120,),
+              SizedBox(width: 130,),
               Icon(Icons.search),
               Icon(Icons.more_vert),
             ],
           ),
           bottom: TabBar(
+            indicatorColor: Colors.white,
             tabs: [
               Tab(text: 'CHAT'),
               Tab(text: 'CALLS'),

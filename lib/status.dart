@@ -10,6 +10,6 @@ class Status extends StatefulWidget {
 class _StatusState extends State<Status> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Text('status');
   }
 }
